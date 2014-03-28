@@ -1,0 +1,16 @@
+/* ==========================================================================
+   BASE: anything applied universally that can't be abstracted into other components
+   ========================================================================== */
+
+// Fixes the CSS box model so that padding and borders are now inside element widths
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  text-rendering: optimizeLegibility; /* The browser emphasizes legibility over rendering speed, geometric precision. Enables kerning, optional ligatures. */
+  font-kerning: normal; /* Specifies that kerning is applied (rather than at user's discretion, or not at all) */
+  font-size: 100%;
+}
