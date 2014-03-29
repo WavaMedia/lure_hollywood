@@ -8,10 +8,8 @@
 html {
   text-rendering: optimizeLegibility;
   /* The browser emphasizes legibility over rendering speed, geometric precision. Enables kerning, optional ligatures. */
-
   font-kerning: normal;
   /* Specifies that kerning is applied (rather than at user's discretion, or not at all) */
-
   font-size: 100%;
 }
 body {
