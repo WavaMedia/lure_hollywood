@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic,500italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700,400italic,500italic,700italic);
 /*! normalize.css v1.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -585,6 +585,7 @@ h6 {
    ========================================================================== */
 img {
   max-width: 100%;
+  max-height: 100%
   margin: 0;
 }
 /* ==========================================================================
@@ -594,4 +595,30 @@ footer {
   background-color: #ffffff;
   color: #0a0a09;
   border-top: 1em solid steelblue;
+}
+/* ==========================================================================
+   BUTTONS
+   ========================================================================== */
+.button {
+  margin: 0.5em auto;
+  padding: 0.3em;
+  background-color: #0f0e0e;
+  border: 3px solid white;
+  max-width: 50%;
+  font-size: 1em;
+  font-family: 'Roboto';
+  font-weight: 200;
+}
+.button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.button a:hover {
+  color: white;
+}
+.button:hover {
+  background-color: gray;
+}
+.buy {
+  color: red;
 }
