@@ -6,18 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lure Hollywood</title>
   <link href="css/style.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="js/responsiveslides.js"></script>
+  <script>
+    $(function() {
+      $(".rslides").responsiveSlides();
+    });
+  </script>
 </head>
 
 <body>
 
-  <div class="container">
-
     <header>
-      <div class="logo"><img src="img/logo.png" /></div>
-      <nav></nav>
+
+      <img src="img/logo.png" />
+
+      <div class="banner"><!-- <img src="img/logo.png" /> -->
+        <ul class="rslides">
+          <li><img src="img/banner1.jpg" /></li>
+          <li><img src="img/banner2.jpg" /></li>
+          <li><img src="img/banner3.jpg" /></li>
+        </ul>
+      </div>
+
+      <nav>
+        <!-- Insert nav content here -->
+      </nav>
+
     </header>
 
-    <img class="banner" src="img/banner1.jpg" />
+    <div class="container">
 
     <h4 class="page-title">Upcoming Events</h4>
 
@@ -63,5 +81,6 @@
   </div>
   
 </body>
+
 
 </html>
