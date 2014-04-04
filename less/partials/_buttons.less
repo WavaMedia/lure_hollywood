@@ -2,32 +2,82 @@
    BUTTONS
    ========================================================================== */
 
+.ghostcircle{
+    border-radius:100%;
+    background:rgba(255,255,255,0.5);
+    width:260px;
+    height:260px;
+    margin:0 auto;
+    position:absolute;
+//    bottom:300px;
+    top:0px;
+    display:table;
+    left:25%;
+    right:25%;
+    top:25%;
+    bottom:25%;
+    
+}
+
+.ghostcircle_table_cell{
+    display:table-cell;
+    vertical-align:middle;
+}
+
 
 .button {
     margin: 0.5em auto;
     padding: 0.3em;
     background-color: @black;
     border: 3px solid white;
+    position:relative;
+    width:100%;
     max-width: 50%;
     font-size: 1em;
     font-family: 'Roboto';
     font-weight: 200;
+    opacity:1;
+    z-index:4;
       a {
         text-decoration: none;
         color: @white;
-        &:hover {
-          color: white;
-          }
-        }
-      &:hover {
-        background-color: gray;
-        }
-  }
+    }
+//        &:hover {
+//          color: white;
+//          }
+//        }
+//      &:hover {
+//        background-color: gray;
+//        }
+//  }
+}
 
   .buy {
-    color: red;
+    opacity:1;
   }
 
+<<<<<<< HEAD
+=======
+.island:nth-of-type(2n){
+    background:#FFF;
+}
+
+.date2n{
+    color:black;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+.artist2n{
+    color:black;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+    
+
+    
+  
+>>>>>>> Sylwia
 // .button {
 //     position: relative;
 //     margin: 0.5em auto;
@@ -54,7 +104,7 @@
 //   position: relative;
 //   max-width: 100%;
 // }
-
+    
 // .buy, 
 // .reserve,
 // .info {
